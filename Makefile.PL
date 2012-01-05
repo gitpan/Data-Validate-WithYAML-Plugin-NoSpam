@@ -19,8 +19,10 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "artistic_2",
   "NAME" => "Data::Validate::WithYAML::Plugin::NoSpam",
-  "PREREQ_PM" => {},
-  "VERSION" => "0.01",
+  "PREREQ_PM" => {
+    "Perl::Critic" => 0
+  },
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }

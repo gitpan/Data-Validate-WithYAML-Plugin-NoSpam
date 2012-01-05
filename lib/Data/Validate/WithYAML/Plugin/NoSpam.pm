@@ -7,8 +7,7 @@ use Carp;
 
 # ABSTRACT: Plugin to check that a given text is no spam.
 
-
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 sub check {
@@ -38,7 +37,7 @@ Data::Validate::WithYAML::Plugin::NoSpam - Plugin to check that a given text is 
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -67,10 +66,6 @@ test.yml
       textfield:
           plugin: NoSpam
           type: required
-
-=head1 VERSION
-
-Version 0.01
 
 =head1 SUBROUTINES
 
